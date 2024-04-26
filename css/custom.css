@@ -36,6 +36,7 @@
 
 h1,
 h2,
+h3,
 h4,
 a {
   font-family: "Anton";
@@ -56,14 +57,17 @@ a {
 .widget-filter-links li a,
 span,
 .top-cart-item-quantity,
-.menu-link {
+.menu-link,
+p {
   font-family: "Nixie One";
   font-weight: bold;
   letter-spacing: 1.2px;
   color: white;
 }
 
-p {
+p,
+.emphasis-title p,
+.emphasis-title input {
   font-family: "Nixie One";
   font-weight: bold;
   letter-spacing: 0.7px;
@@ -109,4 +113,8 @@ body,
 #footer .social-icon {
   --cnvs-socialicon-size: 5rem;
   --cnvs-socialicon-fontsize: 2rem;
+}
+
+.emphasis-title h2 {
+  letter-spacing: 1px;
 }
